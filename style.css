@@ -6,7 +6,7 @@ body {
 
 h1 {
   font-size: 30px;
-  color: #2FC4EE;
+  color: #EAB464;
 }
 h2 {
   font-size: 20px;
@@ -17,7 +17,7 @@ h3 {
 }
 p {
   font-family: 'Playfair Display', serif;
-  color: #A2A2A2;
+  color: #EAB464;
 }
 .photo {
   width: 120px;
@@ -51,16 +51,35 @@ a:hover {
   width: 700px;
   margin: 0 auto;
 }
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
-}
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  font-size: 32px;
+  margin: 8px;
+  color: rgb(80,80,80);
 }
 a {
   text-decoration: none;
+}
+.whiskey {
+width: 300px;
+  height: 250px;
+
+}
+.beer {
+  width: 300px;
+  height: 250px;
+}
+.bar {
+  width: 400px;
+  height: 300px;
 }
 
 @media (max-width: 960px) {
@@ -81,3 +100,4 @@ a {
     width: 300px;
   }
 }
+
