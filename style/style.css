@@ -1,24 +1,12 @@
+@import url("buttons.css");
+@import url("cards.css");
+@import url("banner.css");
 body {
   background-color: #eff4f0;
   font-family: font-family: 'Roboto', sans-serif;
   line-height: 15px;
 }
 
-h1 {
-  font-size: 30px;
-  color: #EAB464;
-}
-h2 {
-  font-size: 20px;
-color: #A2A2A2;
-}
-h3 {
-  color: #D2D2D2;
-}
-p {
-  font-family: 'Playfair Display', serif;
-  color: #EAB464;
-}
 .photo {
   width: 120px;
   height: 120px;
@@ -26,27 +14,11 @@ p {
   object-fit: cover;
   object-position: 100% 50%;
 }
-.botton {
-  background-color: #153B50;
-  text-decoration: none;
-  color: white;
-  border-radius: 4px;
-  padding: 15px 20px;
-  position: relative;
-  top: 10px;
 
-}
 a:hover {
   color: #7C9DA8;
 }
-.card {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
-  text-align: center;
-}
+
 .container {
   width: 700px;
   margin: 0 auto;
@@ -68,19 +40,7 @@ a:hover {
 a {
   text-decoration: none;
 }
-.whiskey {
-width: 300px;
-  height: 250px;
 
-}
-.beer {
-  width: 300px;
-  height: 250px;
-}
-.bar {
-  width: 400px;
-  height: 300px;
-}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
