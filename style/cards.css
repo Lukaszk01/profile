@@ -21,3 +21,28 @@ p {
   font-family: 'Playfair Display', serif;
   color: #EAB464;
 }
+.programming {
+  display: block;
+  position: relative;
+  height: 500px;
+  width: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.button-holder a {
+  padding: 20px 80px;
+  border: solid white;
+  border-width: 2px;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  color: white;
+  font-weight: lighter;
+}
+.button-holder a:hover {
+  background-color: #515151;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #515151;
+
+}

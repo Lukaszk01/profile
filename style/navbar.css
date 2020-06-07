@@ -8,13 +8,19 @@
   color: white;
   cursor: pointer;
   opacity: 0.9;
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 3px;
 }
 .bottom-nav a {
   text-decoration: none;
   color: white;
   justify-content: space-between;
+  font-size: 15px;
+  padding: .5rem 1rem;
+  font-family: Raleway,sans-serif;
+  font-weight: lighter;
 }
 .bottom-nav a:hover {
-  color: black;
+  color: #ddba77;
   text-decoration: none;
 }

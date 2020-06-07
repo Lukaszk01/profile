@@ -12,8 +12,7 @@ footer {
   margin-bottom: 25px;
 }
 body {
-  background-color: #eff4f0;
-  font-family: font-family: 'Roboto', sans-serif;
+  background-color: #8E8E8E;
   line-height: 15px;
   padding: 0px;
   margin: 0;
@@ -22,7 +21,20 @@ body {
     margin-top: 80px;
   margin-bottom: 80px;
   font-size: 60px;
+  font-family: 'playfair display', serif;
 }
+
+.about-me h2 {
+  animation: 1.5s slide-right 1.5s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+
 .about-me h2:after {
   content: ' ';
     position: absolute;
@@ -33,9 +45,11 @@ body {
     display: block;
     width: 100px;
     margin: 20px auto;
-    border: 1px solid #e3bbbd;
+    border: 1px solid #ddba77;
 }
-
+.about-me p {
+  color: black;
+ }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
