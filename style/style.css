@@ -1,6 +1,12 @@
 @import url("buttons.css");
 @import url("cards.css");
 @import url("banner.css");
+@import url("navbar.css");
+footer {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 body {
   background-color: #eff4f0;
   font-family: font-family: 'Roboto', sans-serif;
