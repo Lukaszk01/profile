@@ -1,17 +1,20 @@
-.navbar-lewagon {
+.topnav {
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+}
+.topnav h2 {
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.bottom-nav a {
+  text-decoration: none;
+  color: white;
   justify-content: space-between;
-  background: white;
-  padding: .5rem 1rem;
-  text-transform: uppercase;
+}
+.bottom-nav a:hover {
   color: black;
-  font-size: 11px;
-  animation-fill-mode: both;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+  text-decoration: none;
 }
