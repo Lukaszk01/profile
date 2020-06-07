@@ -9,5 +9,23 @@
 }
 .media-overlay img {
   padding: 0;
+  object-fit: cover;
 }
 
+.p-project h2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 60px;
+}
+.p-project h2:after {
+    content: ' ';
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    border: 1px solid #e3bbbd;
+  }

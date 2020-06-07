@@ -15,42 +15,26 @@ body {
   background-color: #eff4f0;
   font-family: font-family: 'Roboto', sans-serif;
   line-height: 15px;
+  padding: 0px;
+  margin: 0;
 }
-
-.photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: 100% 50%;
+.about-me h2 {
+    margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 60px;
 }
-
-a:hover {
-  color: #7C9DA8;
+.about-me h2:after {
+  content: ' ';
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    border: 1px solid #e3bbbd;
 }
-
-.container {
-  width: 700px;
-  margin: 0 auto;
-}
-.list-inline {
-  list-style: none;
-  padding: 0;
-}
-
-.list-inline li {
-  display: inline;
-}
-
-.list-inline a {
-  font-size: 32px;
-  margin: 8px;
-  color: rgb(80,80,80);
-}
-a {
-  text-decoration: none;
-}
-
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
