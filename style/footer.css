@@ -1,0 +1,26 @@
+.footer {
+  background-color: #232323;
+  color: white;
+  padding: 25px;
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  font-size: 32px;
+
+  color: rgb(80,80,80);
+}
+a {
+  text-decoration: none;
+}
