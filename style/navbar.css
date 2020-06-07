@@ -1,6 +1,11 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  color: black;
+  font-size: 11px;
+  animation-fill-mode: both;
 }
 
 .navbar-lewagon .navbar-collapse {
