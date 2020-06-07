@@ -18,9 +18,15 @@
 
 .list-inline a {
   font-size: 32px;
+  padding: 5px;
 
   color: rgb(80,80,80);
+}
+.list-inline a:hover {
+  color: #ddba77;
+  text-decoration: none;
 }
 a {
   text-decoration: none;
 }
+
