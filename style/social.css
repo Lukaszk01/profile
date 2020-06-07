@@ -25,6 +25,15 @@
   font-size: 60px;
   font-family: 'playfair display', serif;
 }
+.p-project h2 {
+  animation: 3s slide-right 3s forwards;
+    transform:translateX(-100%);
+}
+@keyframes p-project {
+  to {
+    transform:translateX(0);
+  }
+}
 .p-project h2:after {
     content: ' ';
     position: absolute;

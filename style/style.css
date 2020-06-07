@@ -24,6 +24,17 @@ body {
   font-family: 'playfair display', serif;
 }
 
+.about-me h2 {
+  animation: 1.5s slide-right 1.5s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+
 .about-me h2:after {
   content: ' ';
     position: absolute;

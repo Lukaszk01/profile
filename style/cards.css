@@ -34,14 +34,15 @@ p {
   border: solid white;
   border-width: 2px;
   position: absolute;
-  top: 40%;
-  left: 45%;
+  top: 35%;
+  left: 40%;
   color: white;
   font-weight: lighter;
 }
 .button-holder a:hover {
-  background-color: #333333;
+  background-color: #515151;
   color: white;
   text-decoration: none;
-  font-family:
+  border: 1px solid #515151;
+
 }
