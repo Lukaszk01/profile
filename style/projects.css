@@ -1,0 +1,40 @@
+.hp-projects {
+  box-sizing: border-box;
+}
+
+.media-overlay img {
+  padding: 0;
+  object-fit: cover;
+}
+.snapcarte {
+  background-color: #EB5641;
+}
+
+.p-project h2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 60px;
+  font-family: 'playfair display', serif;
+}
+.p-project h2 {
+  animation: 3s slide-right 3s forwards;
+    transform:translateX(-100%);
+}
+@keyframes p-project {
+  to {
+    transform:translateX(0);
+  }
+}
+.p-project h2:after {
+    content: ' ';
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    border: 1px solid #ddba77;
+  }
+
