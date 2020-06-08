@@ -49,6 +49,9 @@ body {
 }
 .about-me p {
   color: black;
+  font-family: 'roboto';
+  font-weight: bolder;
+  text-shadow: 0.1px 0.1px 0.1px grey;
  }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
