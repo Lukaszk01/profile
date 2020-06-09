@@ -31,3 +31,73 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 600px) {
+.footer {
+  background-color: #232323;
+  color: white;
+  padding: 25px;
+  font-family: 'roboto';
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  font-size: 32px;
+  padding: 5px;
+
+  color: rgb(80,80,80);
+}
+.list-inline a:hover {
+  color: #ddba77;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+.footer {
+  background-color: #232323;
+  color: white;
+  padding: 25px;
+  font-family: 'roboto';
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  font-size: 32px;
+  padding: 5px;
+
+  color: rgb(80,80,80);
+}
+.list-inline a:hover {
+  color: #ddba77;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+}

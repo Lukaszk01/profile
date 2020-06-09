@@ -9,3 +9,31 @@
 .social-media  i {
 padding: 30px;
 }
+
+@media screen and (min-width: 400px) {
+  .social-media {
+ padding: 30px;
+ background-color: #333333;
+ width: 100%;
+}
+.social-media {
+  font-family: 'playfair display', serif;
+}
+.social-media  i {
+padding: 30px;
+}
+}
+
+@media screen and (min-width: 800px) {
+.social-media {
+ padding: 30px;
+ background-color: #333333;
+ width: 100%;
+}
+.social-media {
+  font-family: 'playfair display', serif;
+}
+.social-media  i {
+padding: 30px;
+}
+}

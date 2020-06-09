@@ -6,10 +6,6 @@
 @import url("social.css");
 @import url("projects.css");
 
-html {
-  scroll-behavior: smooth;
-}
-
 footer {
   text-align: center;
   margin-top: 25px;
@@ -32,7 +28,6 @@ body {
   animation: 1.5s slide-right 1.5s forwards;
     transform:translateX(-100%);
 }
-
 @keyframes slide-right {
   to {
     transform:translateX(0);
