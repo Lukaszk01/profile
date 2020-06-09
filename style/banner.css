@@ -19,6 +19,7 @@
 .banner-text {
   width:100%;
   overflow:hidden;
+  padding: 100px;
 }
 .banner-text, p, h1 {
   animation: banner-text 2s;
