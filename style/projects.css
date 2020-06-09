@@ -65,3 +65,35 @@
   text-align: center;
   font-family: 'playfair display', serif;
 }
+.text-acornr {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'playfair display', serif;
+}
+.text-snapcarte {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'playfair display', serif;
+}
+.cocktail:hover .overlay {opacity: 0.6}{
+  opacity: 1;
+}
+.snapcarte:hover .overlay {opacity: 0.9}{
+  opacity: 1;
+}.acornr:hover .overlay {opacity: 0.9}{
+  opacity: 1;
+}
