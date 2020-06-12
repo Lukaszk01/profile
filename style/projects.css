@@ -1,9 +1,9 @@
+
 .media-overlay img {
   padding: 0;
   object-fit: cover;
 }
 .snapcarte {
-  background-color: #EB5641;
 }
 
 .p-project h2 {
@@ -33,9 +33,7 @@
     margin: 20px auto;
     border: 1px solid #ddba77;
   }
-.cocktail:hover .overlay {opacity: 0.6}{
-  opacity: 1;
-}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -46,7 +44,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #A2A2A2;
+  background-color: gray
 }
 
 .text {
@@ -92,209 +90,4 @@
   opacity: 1;
 }.acornr:hover .overlay {opacity: 0.9}{
   opacity: 1;
-}
-
-
-@media only screen and (max-width: 600px) {
-.hp-projects {
-  box-sizing: border-box;
-}
-
-.media-overlay img {
-  padding: 0;
-  object-fit: cover;
-}
-.snapcarte {
-  background-color: #EB5641;
-}
-
-.p-project h2 {
-  margin-top: 80px;
-  margin-bottom: 80px;
-  font-size: 60px;
-  font-family: 'playfair display', serif;
-}
-.p-project h2 {
-  animation: 3s slide-right 3s forwards;
-    transform:translateX(-100%);
-}
-@keyframes p-project {
-  to {
-    transform:translateX(0);
-  }
-}
-.p-project h2:after {
-    content: ' ';
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    display: block;
-    width: 100px;
-    margin: 20px auto;
-    border: 1px solid #ddba77;
-  }
-.cocktail:hover .overlay {opacity: 0.6}{
-  opacity: 1;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #A2A2A2;
-}
-
-.text {
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'playfair display', serif;
-}
-.text-acornr {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'playfair display', serif;
-}
-.text-snapcarte {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'playfair display', serif;
-}
-.cocktail:hover .overlay {opacity: 0.6}{
-  opacity: 1;
-}
-.snapcarte:hover .overlay {opacity: 0.9}{
-  opacity: 1;
-}.acornr:hover .overlay {opacity: 0.9}{
-  opacity: 1;
-}
-}
-
-@media screen and (min-width: 800px) {
-.hp-projects {
-  box-sizing: border-box;
-}
-
-.media-overlay img {
-  padding: 0;
-  object-fit: cover;
-}
-.snapcarte {
-  background-color: #EB5641;
-}
-
-.p-project h2 {
-  margin-top: 80px;
-  margin-bottom: 80px;
-  font-size: 60px;
-  font-family: 'playfair display', serif;
-}
-.p-project h2 {
-  animation: 3s slide-right 3s forwards;
-    transform:translateX(-100%);
-}
-@keyframes p-project {
-  to {
-    transform:translateX(0);
-  }
-}
-.p-project h2:after {
-    content: ' ';
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    display: block;
-    width: 100px;
-    margin: 20px auto;
-    border: 1px solid #ddba77;
-  }
-.cocktail:hover .overlay {opacity: 0.6}{
-  opacity: 1;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #A2A2A2;
-}
-
-.text {
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'playfair display', serif;
-}
-.text-acornr {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'playfair display', serif;
-}
-.text-snapcarte {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'playfair display', serif;
-}
-.cocktail:hover .overlay {opacity: 0.6}{
-  opacity: 1;
-}
-.snapcarte:hover .overlay {opacity: 0.9}{
-  opacity: 1;
-}.acornr:hover .overlay {opacity: 0.9}{
-  opacity: 1;
-}
 }
