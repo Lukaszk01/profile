@@ -44,7 +44,8 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: gray
+  background-color: gray;
+  border-radius: 210px;
 }
 
 .text {
