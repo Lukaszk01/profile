@@ -5,6 +5,7 @@
 @import url("footer.css");
 @import url("social.css");
 @import url("projects.css");
+@import url("devicon.css"):;
 
 html {
   scroll-behavior: smooth;
@@ -56,5 +57,45 @@ body {
   font-weight: bolder;
   text-shadow: 0.1px 0.1px 0.1px grey;
  }
-
+.devicon-ruby-plain-wordmark.colored, .devicon-ruby-plain.colored {
+  content: "\ebca";
+  font-size: 50px;
+  padding: 10px;
+}
+.devicon-heroku-line-wordmark.colored, .devicon-heroku-line.colored, .devicon-heroku-original-wordmark.colored, .devicon-heroku-original.colored, .devicon-heroku-plain-wordmark.colored, .devicon-heroku-plain.colored {
+  font-size: 50px;
+  padding: 10px;
+}
+.devicon-html5-plain-wordmark:before {
+  font-size: 50px;
+  padding: 10px;
+}
+.devicon-css3-plain-wordmark:before {
+  font-size: 50px;
+  padding: 10px;
+}
+.devicon-javascript-plain:before {
+  font-size: 50px;
+  padding: 10px;
+}
+.devicon-rails-plain-wordmark:before {
+ font-size: 50px;
+ padding: 10px;
+}
+.devicon-python-plain-wordmark:before {
+  font-size: 50px;
+  padding: 10px;
+}
+.devicon-django-plain-wordmark:before {
+  font-size: 50px;
+  padding: 10px;
+}
+.devicon-amazonwebservices-plain-wordmark:before {
+  font-size: 50px;
+  padding: 10px;
+}
+.devicon-amazonwebservices-plain-wordmark:before {
+  font-size: 50px;
+  padding: 10px;
+}
 
