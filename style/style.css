@@ -57,6 +57,9 @@ body {
   font-weight: bolder;
   text-shadow: 0.1px 0.1px 0.1px grey;
  }
+ .text-center {
+  text-align: left;
+ }
 .devicon-ruby-plain-wordmark.colored, .devicon-ruby-plain.colored {
   content: "\ebca";
   font-size: 50px;
