@@ -101,4 +101,9 @@ body {
   font-size: 50px;
   padding: 10px;
 }
-
+.devicon-postgresql-plain-wordmark.colored, .devicon-postgresql-plain.colored {
+  font-size: 50px;
+}
+.devicon-heroku-plain-wordmark:before {
+  font-size: 50px;
+}
