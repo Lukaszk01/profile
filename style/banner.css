@@ -42,3 +42,6 @@
 .banner-text h5 {
   color: #A2A2A2;
 }
+.list-inline-top, .row animated, .fadeIn, .delay-3s {
+  width: 100%;
+}
