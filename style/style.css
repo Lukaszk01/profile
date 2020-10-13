@@ -21,6 +21,7 @@ body {
   line-height: 15px;
   padding: 0px;
   margin: 0;
+  height: 100%;
 }
 .about-me h2 {
     margin-top: 80px;
@@ -107,3 +108,4 @@ body {
 .devicon-heroku-plain-wordmark:before {
   font-size: 50px;
 }
+
