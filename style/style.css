@@ -109,3 +109,9 @@ body {
   font-size: 50px;
 }
 
+.devicon-vuejs-plain-wordmark:before {
+  font-size: 50px;
+}
+.devicon-sass-original, .colored:before {
+  font-size: 50px;
+}
