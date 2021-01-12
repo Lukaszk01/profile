@@ -8,13 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="Lukasz Koziel Portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Lukasz Koziel, a Full Stack Developer living in Chiba, Japan.">
-  <meta name="keywords" content="Ruby, Rails, JavaScript, HTML, CSS">
+  <meta name="description" content="Lukasz Koziel, a Full Stack Developer">
+  <meta name="keywords" content="Ruby, Rails, Django, Vue.js, HTML, CSS">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -44,7 +40,7 @@
   </div>
         <div class="bottom-nav navbar-fixed-top mt-1 mb-3 d-flex justify-content-center">
           <a class="active" href="#">Home</a>
-          <a href="#projects">Apps</a>
+          <a href="#projects">My projects</a>
           <a href="#contact">Contact</a>
           <a href="#about-me">About</a>
           <a href="#demo">Demo Day</a>
@@ -55,7 +51,7 @@
 <div class="row col-md-12 text-center align-center">
   <div class="banner-text">
     <h2>I am a WEB DEVELOPER</h2>
-    <h5>Check out my work!.</h5>
+    <h5>Check out my work!</h5>
       <a class="btn btn-light" href="https://www.linkedin.com/in/lukasz-koziel-83a236189">Resume</a>
   </div>
 </div>
@@ -64,13 +60,17 @@
 </div>
 <div class="about-me text-center mb-3 mt-3 ml-4 mr-4" id="about-me">
   <h2>About me</h2>
+
   <div class="text-center">
     <p>
       I am a Full Stack developer specialising in Ruby on Rails, Vue.js, Django, HTML/CSS and AWS.</p>
      <p>Motivated and hard working, I am particularly interested in Web Development and Blockchain Technologies.</p> 
-     初めまして、ルーカスと申します。
+     <div class="japanese">
+           初めまして、ルーカスと申します。
       この度はご興味を持ちプロファイルにお越しいただき、誠にありがとうございます。
       現在メインのスキルは：
+     </div>
+    
       <p>Frontend: Vue.js, JavaScript ES6, CSS/SCSS/SASS</p>
       <i class="devicon-html5-plain-wordmark colored"></i>
       <i class="devicon-css3-plain-wordmark colored"></i>
@@ -93,8 +93,8 @@
   
        <br>
        <br>
-      
-      
+      <div class="container">
+        <div class="japanese">
           私は世界中の多くの国に住んだ後、東京に移り住むことを決めました。東京は世界の中でも活気に満ちたテクノロジーシーンと、多くの興味深い成長の機会を持つ魅力的な都市だと感じたのが理由です
           これまで私はレストランのバーテンダーとしてしばらく過ごしたきましたが、この役割で自分の可能性を完全に理解することはできないと感じました。私の目標は自分自身にできる限りの価値を与えることです。
           そして私はホスピタリティーで働く事に限定すべきではないことに気付きました。
@@ -111,14 +111,9 @@
            相手の求めることを理解し、それに対して適切な対応をとることが出来ます。
           私のスキルを貴社で活かせると思って頂けましたら、ぜひお気軽に声をかけてください。
           よろしくお願い致します。
-</p>
+        </div>
 
-      
-      
-      
-    
-      
-      
+      </div>
 
     </div>
     
@@ -127,9 +122,9 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/gcwB2wUWWPU?start=2319" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+   </div>
   </div>
-</div>
-<div class="p-project text-center mb-3 mt-3 lg-12 md-6 sm-3">
+  <div class="p-project text-center mb-3 mt-3 lg-12 md-6 sm-3">
   <h2>My WebApps</h2>
   <div class="mt-3 mb-3">
     <i class="devicon-ruby-plain colored"></i>
@@ -150,7 +145,7 @@
               <div class="media-overlay">
                 <img src="style/images/acornr_official_logo.png" alt="Acornr" style="width:380px;height:400px;">
                   <div class="overlay">
-                    <div class="text-acornr">Marketplace web application which will help you to store your belongings in someones property. Or Become owner and share your space and get some extra cash! Click to check!</div>
+                    <div class="text-acornr">Marketplace web application where will help you to store your belongings in someone's property. Become an owner and share your space, get some extra cash! Click to check!</div>
                     </div>
                   </div>
                 </div>
@@ -175,7 +170,7 @@
         <div class="media-overlay">
           <img src="style/images/logo_transparent.png" alt="Snapcarte logo" style="width:380px;height:400px;">
           <div class="overlay">
-            <div class="text-snapcarte">Discover Snapcarte.com, web app which helps non-tech restaurant owners to share their menu by one click using OCR. App is integrated with Uber Easts as well to extend delivery options for owners. Click to check!</div>
+            <div class="text-snapcarte">Discover Snapcarte.com, web app which helps non-tech restaurant owners to share their menu by one click using OCR. Also this app is integrated with Uber Eats to extend delivery options for owners. Click to check!</div>
             </div>
         </div>
       </div>
@@ -199,7 +194,7 @@
           <div class="media-overlay">
             <img src="style/images/LED-Martini-glass-purple-glow.jpg" alt="cocktail" style="width:380px;height:400px;">
             <div class="overlay">
-              <div class="text">Mister cocktail is ready to serve you! Pick your cocktail, add photo, ingredients and doses. Enjoyed drink? Leave review and rating!</div>
+              <div class="text">Mister cocktail is ready to serve you! Pick your cocktail, add photos, ingredients and doses. Enjoyed the drink? Leave review and rating!</div>
             </div>
             </div>
           </div>
@@ -223,7 +218,7 @@
         <div class="media-overlay">
           <img src="https://collegeinfogeek.com/wp-content/uploads/2018/11/Essential-Books.jpg" alt="BookStoreLogo" style="width:380px;height:400px;">
           <div class="overlay">
-            <div class="text-snapcarte">Search books from LARGE library(Google Books API). <p>Click to Try!</p> </div>
+            <div class="text-snapcarte">Search for books from LARGE library(Google Books API). <p>Click to Try!</p> </div>
             </div>
         </div>
       </div>
@@ -252,7 +247,7 @@
         <div class="media-overlay">
           <img src="style/images/Wall_Market1.jpg" alt="WallMarket" style="width:380px;height:400px;">
           <div class="overlay">
-            <div class="text-snapcarte">Shop in Wall Market! Ecommerce web app, find your product, add to the cart, provide your details and checkout!<p>Click to check!</p> </div>
+            <div class="text-snapcarte">Shop at Wall Market! Ecommerce web app, find your product, add to the cart, provide your details and checkout!<p>Click to check!</p> </div>
             </div>
         </div>
       </div>
@@ -323,8 +318,12 @@
 </div>
 <div class="lg-12 md-6 sm-3">
   <div class="footer">
-  <footer>© 2020 <i>Lukasz Koziel</i>  ALL RIGHTS RESERVED.</footer>
+  <footer>© 2021 <i>Lukasz Koziel</i> ALL RIGHTS RESERVED.</footer>
 </div>
 </div>
 </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </html>

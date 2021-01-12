@@ -7,7 +7,7 @@
 
 }
 .banner-text, p, h1 {
-  animation: banner-text 2s;
+  animation: banner-text 1s;
 }
 
 @keyframes banner-text {

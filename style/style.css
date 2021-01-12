@@ -56,7 +56,7 @@ body {
   color: black;
   font-family: 'roboto';
   font-weight: bolder;
-  text-shadow: 0.1px 0.1px 0.1px grey;
+  text-shadow: 0.1px 0.1px 0.1px gray;
  }
  .text-center {
   text-align: left;
@@ -114,4 +114,13 @@ body {
 }
 .devicon-sass-original, .colored:before {
   font-size: 50px;
+}
+p.japanese {
+  font-weight: 100;
+  font-family: 'roboto';
+}
+
+div.japanese {
+  font-weight: 100;
+  font-family: 'roboto';
 }
