@@ -23,7 +23,7 @@
 .centered {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -35,15 +35,42 @@
   background-size: cover;
   width: 100%;
 }
-.projects {
-    left: auto;
-    top: auto;
-    right: 0%;
-    bottom: 0%;
-    width: 50%;
-    height: 50vh;
-    background-image: url(https://uploads-ssl.webflow.com/601a0bef6a367365b406d7cd/602f4021457b6b505090dd9a_news_s.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
+
+.row {
+  padding: 0px;
+  margin: 0px;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 76%;
+  height: 100vh;
+  background-image: url(https://uploads-ssl.webflow.com/601a0bef6a367365b406d7cd/602f4021457b6b505090dd9a_news_s.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
 }
+.about-section {
+  background-color: aqua;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  height: 200vh;
+  padding-top: 0%;
+  padding-right: 0%;
+  padding-left: 7%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
