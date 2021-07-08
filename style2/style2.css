@@ -144,24 +144,30 @@ body {
 }
 #fp-nav {
   position: fixed;
-  padding-top: 144px;
+  /* padding-top: 144px; */
   z-index: 99999;
   top: 25%;
   right: 80px;
   text-align: right;
   opacity: 1;
+  color: #f0f0f0;
 }
-
+.active {
+  margin-top: 20px;
+  font-size: 40px;
+  transition: 0.8s;
+}
 .active:hover {
+  margin-top: 20px;
   height: 0px;
   width: 0px;
   border-radius: 100%;
-  font-size: 40px;
+  font-size: 60px;
   color: #333;
-  text-height: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
   display: inline;
+  transition: 0.8s;
 }
 li {
   list-style-type: none;
