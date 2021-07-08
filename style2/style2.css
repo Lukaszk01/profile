@@ -51,16 +51,17 @@
   right: 0%;
   bottom: 0%;
   width: 76%;
-  height: 100vh;
+  height: 50vh;
   background-image: url(https://uploads-ssl.webflow.com/601a0bef6a367365b406d7cd/602f4021457b6b505090dd9a_news_s.jpg);
   background-position: 50% 50%;
   background-size: cover;
 }
+
 .about-section {
   background-image: url(https://uploads-ssl.webflow.com/601a0bef6a367365b406d7cd/602f40c3056aac673cdfaa88_story_mobile.jpg);
 }
 .demo {
-  background-image: url(https://uploads-ssl.webflow.com/601a0bef6a367365b406d7cd/602f416a2c6b591af0ac3015_prooduct_s.jpg);
+  /* background-image: url(https://uploads-ssl.webflow.com/601a0bef6a367365b406d7cd/602f416a2c6b591af0ac3015_prooduct_s.jpg); */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -83,6 +84,9 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+.project-section {
+  margin-left: -17%;
 }
 body {
   height: 100%;
@@ -146,7 +150,7 @@ body {
   position: fixed;
   /* padding-top: 144px; */
   z-index: 99999;
-  top: 25%;
+  top: 10%;
   right: 80px;
   text-align: right;
   opacity: 1;
@@ -211,3 +215,7 @@ li {
 .home-side-menu-arrow {
   height: 100%;
 }
+/* #snapcarte-img {
+  width: 300px;
+  height: 300px;
+} */
